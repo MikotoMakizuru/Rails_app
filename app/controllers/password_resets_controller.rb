@@ -1,10 +1,7 @@
 class PasswordResetsController < ApplicationController
-<<<<<<< Updated upstream
   before_action :get_user,   only: [:edit, :update]
   before_action :valid_user, only: [:edit, :update]
 
-=======
->>>>>>> Stashed changes
   def new
   end
 
@@ -23,7 +20,6 @@ class PasswordResetsController < ApplicationController
 
   def edit
   end
-<<<<<<< Updated upstream
   
   private
 
@@ -38,6 +34,4 @@ class PasswordResetsController < ApplicationController
         redirect_to root_url
       end
     end
-=======
->>>>>>> Stashed changes
 end
